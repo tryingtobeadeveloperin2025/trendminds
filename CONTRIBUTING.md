@@ -19,7 +19,7 @@ Follow it exactly for every task, including small ones. It becomes automatic aft
  7. Push + open a PR                 →  git push -u origin HEAD && gh pr create
  8. Review: fix comments, push again
  9. Reviewer approves → squash-merge
-10. Clean up                         →  git switch main && git pull && git branch -d <branch>
+10. Clean up                         →  git switch main && git pull && git branch -D <branch>
 ```
 
 ---
@@ -255,8 +255,10 @@ Merging to `main` deploys to production automatically.
 ```bash
 git switch main
 git pull
-git branch -d feat/bmi-calculator
+git branch -D feat/bmi-calculator
 ```
+
+Use a **capital `-D`**. Because PRs are squash-merged, git on your machine doesn't recognise the branch as merged, so a lowercase `-d` refuses with "not fully merged". Only delete a branch once you've seen its PR marked **Merged** on GitHub.
 
 Then go back to step 1 for your next task.
 

@@ -81,4 +81,4 @@ Full version: [ARCHITECTURE.md §3](ARCHITECTURE.md#3-folder-structure).
 | Name                         | GitHub                                                                       | Role                                  |
 | ---------------------------- | ---------------------------------------------------------------------------- | ------------------------------------- |
 | Aayan Mulla                  | [@tryingtobeadeveloperin2025](https://github.com/tryingtobeadeveloperin2025) | Maintainer: reviews, merges, releases |
-| _(add yourself in task T06)_ |                                                                              | Contributor                           |
+| Sarfaraz                     | [@sarf14](https://github.com/sarf14)                                         | Contributor                           |
